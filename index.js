@@ -7,6 +7,7 @@ class Weapon {
 class Loadout {
     constructor() {
         this.weaponSystems = [];
+        //stores instances of 'weapon' class
     }
 
     equipWeapon(weaponName) {
